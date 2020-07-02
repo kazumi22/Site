@@ -1,0 +1,146 @@
+*{
+ padding:0;
+ margin:0 auto;
+ font-family:verdana, arial, tahoma;
+ background:#FFFEC6;
+
+}
+#wrapper{
+  width:100%;
+  height:1000px;
+}
+header{
+	width:100%;
+	height:120px;
+	background:#042D65;
+	border-bottom:5px solid #687863;
+}
+#logoheard{
+	width:100%;
+	height:120px;
+	background:#01A9DB;
+	border-bottom:1px solid #2ECCFA;
+    list-style-type:none;
+}
+#item{
+	height:220px;
+	width:227px;
+	border:1px solid #311E75;
+	border-radius:10px;
+	float:left;
+	padding:15px;
+	margin-top:40px;
+	margin-left:40px;
+	list-style-type:none;
+}
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav {
+    margin: 0 auto;
+    text-align: center;
+	background:#647289;
+}
+nav ul {
+	background:#94A6C4;
+	padding: 0 auto;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+		content: ""; clear: both; display: block;
+}
+
+nav ul li {
+		float: left;
+}
+nav ul li:hover {
+			background: #4b545f;
+}			
+nav ul li:hover a {
+				color: #657CA4;
+}
+		
+nav ul li a {
+			display: block; padding: 15px 20px;
+			color: #757575; text-decoration: none;
+}
+
+nav ul ul {
+		background: #D270A7; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+nav ul ul li {
+			float: none; 
+			border-top: 1px solid #D270A7;
+			border-bottom: 1px solid #575f6a; position: relative;
+}
+nav ul ul li a {
+				padding: 15px 20px;
+				color: #D270A7;
+}	
+nav ul ul li a:hover {
+					background: #4b545f;
+}
+nav ul ul ul {
+		position: absolute; left: 100%; top:0;
+}
+a {
+	text-decoration:none;
+	color:#392531;
+	text-align:center-left;
+}
+ul{
+	list-style-type:none;
+	position:position;
+}				
+.content{
+	width:1100px;
+	height:100%;
+	list-style-type:none;
+}
+#clould{
+	list-style-type:none;
+}
+#extra1{
+	list-style-type:none;
+	text-decoration:none;
+}
+#extra2{
+	list-style-type:none;
+	text-decoration:none;
+}
+#extra3{
+	list-style-type:none;
+	text-decoration:none;
+}
+#extra4{
+	list-style-type:none;
+	text-decoration:none;
+}
+#extra5{
+	list-style-type:none;
+	text-decoration:none;
+}
+#extra6{
+	list-style-type:none;
+	text-decoration:none;
+}
+
+#logofooter{
+	float:left;
+	bottom: 0;
+	margin-top:30px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+}
+    
+	
+
+
